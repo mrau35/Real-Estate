@@ -1,4 +1,3 @@
-import React from 'react';
 
 function Profile() {
    return (
@@ -8,4 +7,4 @@ function Profile() {
    );
 }
 
-export default Profile;Profile
+export default Profile;
