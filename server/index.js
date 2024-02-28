@@ -12,7 +12,7 @@ mongoose.connect(process.env.REALESTATE_DB_URI).then(() => {
 
 const app = express();
 
-const port = 8082;
+const port = process.env.PORT || 8082;
 
 app.listen(port, () => { 
    console.log(`server listening on port ${port}`);
